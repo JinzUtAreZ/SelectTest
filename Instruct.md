@@ -50,6 +50,20 @@ git bash repo instructions:
 12. git remote rm origin (clear out git and try again)
 13. git status (check current non commited files to github)
 
+git bash update instructions
+
+1. open git bash exe
+2. cd ( go to directory folder using git cmd)
+   cd c:\ReactVS\Node-React-1.0
+3. git status
+4. git add .
+5. git commit -m "Description of changes"
+6. git status (check updates)
+7. git push origin master
+
+8. git remote rm origin -- add version and renew link in github.
+9. git config --get remote.origin.url ----- check current github url
+
 node server
 
 1. npm init -y ------ create package json file
